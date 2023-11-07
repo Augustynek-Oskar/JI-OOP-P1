@@ -1,14 +1,24 @@
 public class Movie {
 
+    String nameOfTheMovie;
+    String nameOfTheDirectors;
+    int durationInMinutes;
+    int releaseYear;
+
+
+    public Movie(String nameOfTheMovie, String nameOfTheDirectors, int durationInMinutes, int releaseYear){
+
+        this.nameOfTheMovie = nameOfTheMovie;
+        this.nameOfTheDirectors = nameOfTheDirectors;
+        this.durationInMinutes = durationInMinutes;
+        this.releaseYear = releaseYear;
+
+    }
+
     public void getMovieDetails(){
 
-        String nameOfTheMovie = "\"Alien vs. Predator\"";
-        String nameOfTheDirectors = "Paul W.S. Anderson, Colin Strause, Greg Strause";
-        int durationInMinutes = 101;
-        int releaseDate = 2004;
-
         System.out.println("Movie: " + nameOfTheMovie + "\n" + "Directory: " + nameOfTheDirectors +
-                "\n" + "Movie duration: " + durationInMinutes + " minutes" + "\n" + "Release date: "+ releaseDate);
+        "\n" + "Movie duration: " + durationInMinutes + " minutes" + "\n" + "Release date: "+ releaseYear + "\n");
 
     }
 
