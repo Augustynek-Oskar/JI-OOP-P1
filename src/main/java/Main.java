@@ -4,8 +4,6 @@ public class Main {
         Seat seat1 = new Seat();
         seat1.getSeatOneInfo();
 
-        Seat seat2 = new Seat();
-        seat2.getSeatTwoInfo();
 
     }
 }
