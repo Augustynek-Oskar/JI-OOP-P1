@@ -1,19 +1,19 @@
 public class Seat {
 
-    final int seatNumber = 1;
-    final int seatRow = 1;
+    private final int seatNumber;
+    private final int seatRow;
     private boolean reserved = true;
 
-    public int getSeatNumber() {
-        return seatNumber;
+    public void getSeatNumber() {
+        System.out.println(seatNumber);
     }
 
-    public int getSeatRow(){
-        return seatRow;
+    public void getSeatRow(){
+        System.out.println(seatRow);
     }
 
-    public boolean getReserved(){
-        return reserved;
+    public void getReserved(){
+        System.out.println(reserved);
     }
 
     public void setReserved(boolean reserved){
@@ -27,10 +27,19 @@ public class Seat {
         }
     }
 
-    public void getSeatOneInfo() {
+    public Seat (int seatNumber, int seatRow){
+        this.seatNumber = seatNumber;
+        this.seatRow = seatRow;
 
-        System.out.println("Numer miejsca: "+seatNumber);
-        System.out.println("Numer rzędu: "+seatRow);
-        System.out.println("Czy jest zarezerwowane: "+reserved+"\n");
     }
+
+    public void getSeatInfo() {
+
+        System.out.println("Numer miejsca: " + seatNumber);
+        System.out.println("Numer rzędu: " + seatRow);
+        System.out.println("Czy jest zarezerwowane: " + reserved + "\n");
+
+    }
+
+
 }
