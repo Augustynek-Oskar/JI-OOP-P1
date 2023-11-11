@@ -24,5 +24,6 @@ public class Main {
         manager.setBonusSalary(550);
         System.out.println(manager.totalSalary());
 
+
     }
 }

@@ -1,7 +1,7 @@
 public class BaseEmployee {
     String name;
     String surname;
-    int salary = 3000;
+    final int salary = 3000;
     final int yearOfEmployment;
 
     public BaseEmployee(String name, String surname, int yearOfEmployment){

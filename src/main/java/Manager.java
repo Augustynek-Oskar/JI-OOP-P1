@@ -1,5 +1,5 @@
 public class Manager extends BaseEmployee {
-    int bonusSalary = 500;
+    private int bonusSalary = 500;
     final int salary = 5000;
 
     public Manager(String name, String surname, int yearOfEmployment) {
