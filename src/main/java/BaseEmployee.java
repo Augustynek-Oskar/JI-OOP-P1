@@ -4,7 +4,7 @@ public class BaseEmployee {
     int salary = 3000;
     final int yearOfEmployment;
 
-    public BaseEmployee(String name, String surname, int yearOfEmployment, int salary){
+    public BaseEmployee(String name, String surname, int yearOfEmployment){
         this.name = name;
         this.surname = surname;
         this.yearOfEmployment = yearOfEmployment;

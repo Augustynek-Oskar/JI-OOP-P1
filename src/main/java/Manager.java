@@ -2,8 +2,8 @@ public class Manager extends BaseEmployee {
     int bonusSalary = 500;
     final int salary = 5000;
 
-    public Manager(String name, String surname, int yearOfEmployment, int salary) {
-        super(name, surname, yearOfEmployment, salary);
+    public Manager(String name, String surname, int yearOfEmployment) {
+        super(name, surname, yearOfEmployment);
     }
 
     public int calculateMonthlySalary(){

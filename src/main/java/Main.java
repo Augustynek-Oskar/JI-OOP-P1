@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        BaseEmployee employee1 = new BaseEmployee("Oskar", "Augustynek",2020,1000);
-        Manager manager = new Manager("Jan", "Kowalski", 2018,3000);
-        TicketSeller ticketSeller = new TicketSeller("Adam", "Nowak", 2021, 3000);
+        BaseEmployee employee1 = new BaseEmployee("Oskar", "Augustynek",2020);
+        Manager manager = new Manager("Jan", "Kowalski", 2018);
+        TicketSeller ticketSeller = new TicketSeller("Adam", "Nowak", 2021);
 
         //zwróć kwotę podstawowego wynagrodzenia
         System.out.println(employee1.calculateMonthlySalary());
