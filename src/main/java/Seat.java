@@ -4,6 +4,12 @@ public class Seat {
     private final int seatRow;
     private boolean reserved = true;
 
+    public Seat (int seatNumber, int seatRow){
+        this.seatNumber = seatNumber;
+        this.seatRow = seatRow;
+
+    }
+
     public void getSeatNumber() {
         System.out.println(seatNumber);
     }
@@ -25,12 +31,6 @@ public class Seat {
             this.reserved = reserved;
 
         }
-    }
-
-    public Seat (int seatNumber, int seatRow){
-        this.seatNumber = seatNumber;
-        this.seatRow = seatRow;
-
     }
 
     public void getSeatInfo() {
