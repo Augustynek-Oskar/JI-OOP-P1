@@ -1,9 +1,9 @@
 public class Movie {
 
-    String nameOfTheMovie;
-    String nameOfTheDirectors;
-    int durationInMinutes;
-    int releaseYear;
+    private final String nameOfTheMovie;
+    private final String nameOfTheDirectors;
+    private final int durationInMinutes;
+    private final int releaseYear;
 
 
     public Movie(String nameOfTheMovie, String nameOfTheDirectors, int durationInMinutes, int releaseYear){
