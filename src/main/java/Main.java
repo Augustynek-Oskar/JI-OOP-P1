@@ -8,7 +8,7 @@ public class Main {
 
         Seat seat1 = new Seat(14,5);
         seat1.getSeatInfo();
-
+  
         Seat seat2 = new Seat(13,5);
         seat2.getSeatInfo();
 
@@ -38,7 +38,8 @@ public class Main {
         manager.setBonusSalary(550);
         System.out.println(manager.totalSalary());
 
-
+    public static int getMinutesToSecondsConversion(int minutes){
+        return minutes * 60;
     }
 
 }
